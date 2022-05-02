@@ -1,0 +1,13 @@
+------------------------------
+             Queue       
+------------------------------
+ - elements: int[] 
+ - size: int       
+ + defaultCapacity : int
+------------------------------
+ + Queue()          
+ + enqueue(v: int)  
+ + dequeue(): int   
+ + empty(): boolean 
+ + getSize(): int   
+------------------------------

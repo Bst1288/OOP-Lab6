@@ -1,0 +1,24 @@
+-----------------------------------------------------------------------------------
+                                         Tax
+-----------------------------------------------------------------------------------
++ SINGLE_FILER : int
++ MARRIED_JOINTLY_OR_QUALIFYING_WIDOW : int
++ MARRIED_SEPARATELY : int
++ HEAD_OF_HOUSEHOLD : int
+- filingStatus : int
+- brackets : int[][]
+- taxableIncome : double
+- rates: double[]   
+-----------------------------------------------------------------------------------
++ Tax()
++ Tax(filingStatus: int, brackets: int[][], rates: double[], taxableIncome: double) 
++ getTax() : double
++ getFilingStatus() : int
++ getBrackets() : int[][]
++ getTaxableIncome() : double
++ getRates() : double
++ setFilingStatus(filingStatus: int)
++ setBrackets(brackets: int[][])
++ setTaxableIncome(taxableIncome: double)
++ setRates(rates: double[])
+-----------------------------------------------------------------------------------
